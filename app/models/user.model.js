@@ -9,7 +9,7 @@ module.exports = (sequelize, Sequelize) => {
     nickname: {
       type: Sequelize.STRING,
     },
-    deleteFlag: {
+    signouted: {
       type: Sequelize.BOOLEAN,
     },
   });
